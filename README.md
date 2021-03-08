@@ -1,6 +1,11 @@
 ## About Project Detail
 
 
+### `Demo`
+
+Please open the page on web browser: 
+https://jovial-mayer-0d35f3.netlify.app/
+
 
 ### `API used` 
 

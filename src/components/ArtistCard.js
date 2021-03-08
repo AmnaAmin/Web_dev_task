@@ -35,10 +35,10 @@ class ArtistCard  extends React.Component {
                 </div>
 
                 <div className="card-body row">
-                    <div className="artist_image col-3">
+                    <div className="artist_image d-none d-md-block col-md-3">
                         <img className="img-fluid" src={image_url} alt={name}/>
                     </div>
-                    <div className="artist_events col-9">
+                    <div className="artist_events col-12 col-md-9">
                         <ul>
                             {this.props.detailed.length ? (this.props.detailed.map((event, i) => (
                             <SingleEvent 
