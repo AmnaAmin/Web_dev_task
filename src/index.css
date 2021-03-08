@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  color: #2b2b2b;
+  background: #fbfbfb;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.loader_card {
+    background: #58d2d0b3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-header {
+    height: 140px;
+    overflow: hidden;
+    padding: 15px;
+    background: #505050a3;
+    border: 0;
+    position: relative;
+}
+
+.card-header img {
+    width: 100%;
+    filter: blur(8px);
+    z-index: 0;
+    position: absolute;
+    left: 0;
+}
+
+.artist_name {
+    z-index: 10;
+    position: relative;
+    color: #fff;
+}
+
+.artist_name .a_name {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.artist_name .follow_me a{
+  color: inherit;
+}
+
+.events_c span {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #ffca1b;
+    text-shadow: 0px 1px black;
+}
+
+.artist_events ul {
+    padding-left: 0;
+    list-style: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.artist_events li {
+    padding:  5px 10px;
+    background: #f8f8f8;
+    margin-bottom: 2px;
+}
+
+.artist_events li .e_name {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.modal {
+  display: block;
+}
